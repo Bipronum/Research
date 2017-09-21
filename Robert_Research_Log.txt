@@ -1,0 +1,8 @@
+September 21, 2017
+
+Discovered REST API documentation for Salesforce. Of particular interest is the "limits" resource - we can check how many requests we're allowed to make per day, then configure the system to query regularly as long as it's less frequent than the maximum limit. In addition, it appears we can use customized SQL queries - this could be used to create standardized interfaces and appearances so long as the databases are fairly similar (as yet, I've not used Salesforce enough to know whether this condition is true).
+
+Created Research directory and added:
+README.md (currently blank)
+Salesforce_api_rest.pdf
+<this file>
